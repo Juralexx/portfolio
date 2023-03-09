@@ -1,0 +1,72 @@
+{
+    "name": "portfolio",
+    "private": true,
+    "description": "Alexandre Vurbier - Développeur / intégrateur web - Portfolio",
+    "version": "0.1.0",
+    "author": "Alexandre Vurbier",
+    "dependencies": {
+        "@popperjs/core": "^2.11.5",
+        "animejs": "^3.2.1",
+        "axios": "^1.2.0",
+        "babel-plugin-styled-components": "^2.0.7",
+        "bcryptjs": "^2.4.3",
+        "d3": "^7.8.2",
+        "gatsby": "^4.16.0",
+        "gatsby-plugin-gatsby-cloud": "^4.16.0",
+        "gatsby-plugin-google-fonts": "^1.0.1",
+        "gatsby-plugin-image": "^2.16.1",
+        "gatsby-plugin-manifest": "^4.16.0",
+        "gatsby-plugin-netlify": "^5.1.0",
+        "gatsby-plugin-offline": "^5.16.0",
+        "gatsby-plugin-react-helmet": "^5.16.0",
+        "gatsby-plugin-remove-console": "^0.0.2",
+        "gatsby-plugin-sharp": "^4.16.1",
+        "gatsby-plugin-sitemap": "^5.25.0",
+        "gatsby-plugin-styled-components": "^5.16.0",
+        "gatsby-remark-audio": "^1.0.2",
+        "gatsby-source-filesystem": "^4.16.0",
+        "gatsby-transformer-remark": "^5.16.0",
+        "gatsby-transformer-sharp": "^4.16.0",
+        "js-cookie": "^3.0.1",
+        "prop-types": "^15.8.1",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-helmet": "^6.1.0",
+        "react-popper": "^2.3.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.0",
+        "react-share": "^4.4.1",
+        "react-transition-group": "^4.4.5",
+        "react-xarrows": "^2.0.2",
+        "scrollreveal": "^4.0.9",
+        "styled-components": "^5.3.5",
+        "tailwindcss": "^3.2.4"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-remove-console": "^6.9.4",
+        "gatsby-plugin-root-import": "^2.0.8",
+        "prettier": "^2.6.2"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "0BSD",
+    "scripts": {
+        "build": "GENERATE_SOURCEMAP=false gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+        "start": "gatsby develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+        "tail": "npx tailwindcss -o ./src/styles/dist/tail.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Juralexx/portfolio.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Juralexx/portfolio/issues"
+    },
+    "homepage": "https://github.com/Juralexx/portfolio#readme"
+}
